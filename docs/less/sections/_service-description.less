@@ -1,0 +1,42 @@
+.service-description__img,
+.service-description__img-2 {
+	position: relative;
+	img {
+		position:static;
+
+		top: 0;
+		left: 0;
+
+		@media (min-width: 1200px) {
+			position:absolute;
+			left: -51px;
+		}
+	}
+}
+	
+.service-description__img-2 img{
+
+	@media (min-width: 1200px) {
+		left: 100px;
+	}
+}
+.service-description__content{
+	font-size: 14px;
+	line-height: 24px;
+	p {
+		margin-bottom: 25px;
+		letter-spacing: 0.3px;
+		color: #777777;
+	}
+	p:last-child {
+		margin-bottom: 20px;
+	}
+}
+
+
+.service-description__button {
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-image: url('../img/icon/arrow-orange.png');
+}
